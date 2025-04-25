@@ -16,6 +16,7 @@ explanation:
 
 #include<iostream>
 using namespace std;
+
 int root(int);
 int main()
 	{
@@ -24,6 +25,7 @@ int main()
 	cout << ret;
 	return 0;
 	}
+
 int root(int num)
 {
 	int i, j, k;
@@ -41,9 +43,9 @@ int root(int num)
 	}
 	
 	if(num = true)
-cout << "Armstrong number" << endl;
-	else
-		cout << "Not Armstrong number"  << endl;
+         cout << "Armstrong number" << endl;
+	   else
+	 cout << "Not Armstrong number"  << endl;
 	return 0;
 }
 	
