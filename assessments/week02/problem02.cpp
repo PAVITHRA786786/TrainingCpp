@@ -18,6 +18,7 @@ explanation:
 using namespace std;
 
 int root(int);
+
 int main()
 	{
 	int ret = 0;
