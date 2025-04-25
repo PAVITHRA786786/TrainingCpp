@@ -32,7 +32,7 @@ using namespace std;
 int main()
 {
 	
-	int num,itr2,itr3;
+	int num,itr1,itr2;
 	int num2= 1;
 	cout << "Enter n value:" << endl;
 	cin >> num;
