@@ -17,7 +17,7 @@ explanation:
 #include<iostream>
 using namespace std;
 
-int getDigits(long int);
+int getdigits(long int);
 int armStrongNo(long int, int);
 
 int main()
@@ -34,7 +34,7 @@ int main()
 	return 0;
 }
 
-int getDigits(long int num)
+int getdigits(long int num)
 {
 	int digits = 0;
 	while (num)
