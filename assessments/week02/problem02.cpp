@@ -17,10 +17,6 @@ explanation:
 #include<iostream>
 using namespace std;
 
-#include <iostream>
-
-using namespace std;
-
 int getDigits(long int);
 int armStrongNo(long int, int);
 
