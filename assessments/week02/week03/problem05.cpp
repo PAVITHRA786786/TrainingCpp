@@ -9,8 +9,8 @@ Return the list of leaders in the same order as they appear from right to left i
 1 ? N ? 100
 1 ? A[i] ? 1000 (where A[i] is the ith element of the array)
 ?? Input Format
-The first line contains an integer N — the number of elements in the array.
-The second line contains N space-separated integers — the elements of the array.
+The first line contains an integer N â€” the number of elements in the array.
+The second line contains N space-separated integers â€” the elements of the array.
 ??? Output Format
 Print the leader elements of the array from **right to left** as they appear.
 ?? Test Cases
