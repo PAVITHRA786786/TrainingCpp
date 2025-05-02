@@ -23,7 +23,7 @@ Output:
 */
 
 #include<iostream>
-#define CAP 10
+#define CAP 100
 using namespace std;
 
 void display(int arr[],int n);
