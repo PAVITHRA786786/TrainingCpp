@@ -9,10 +9,10 @@ Return the first equilibrium index (0-based indexing). If no such index exists, 
 1 ? N ? 100
 -1000 ? A[i] ? 1000
 ?? Input Format
-The first line contains an integer N — the size of the array.
-The second line contains N space-separated integers — the elements of the array.
+The first line contains an integer N â€” the size of the array.
+The second line contains N space-separated integers â€” the elements of the array.
 ??? Output Format
-Print a single integer — the index of the first equilibrium position, or -1 if it does not exist.
+Print a single integer â€” the index of the first equilibrium position, or -1 if it does not exist.
 ?? Test Cases
 ? Test Case 1
 Input:
