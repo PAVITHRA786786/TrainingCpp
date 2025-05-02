@@ -9,9 +9,9 @@ If the number of elements left at the end is less than K, reverse all of them as
 1 ? arr[i] ? 1000 (for each element in the array)
 1 ? K ? N
 ?? Input Format
-The first line contains an integer N – the size of the array.
+The first line contains an integer N â€“ the size of the array.
 The second line contains N space-separated integers.
-The third line contains an integer K – the group size for reversal.
+The third line contains an integer K â€“ the group size for reversal.
 ??? Output Format
 Print the array after reversing every group of K consecutive elements.
 ?? Test Cases
