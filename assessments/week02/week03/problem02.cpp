@@ -24,7 +24,7 @@ Output:
 */
 
 #include<iostream>
-#define CAP 10
+#define CAP 100
 using namespace std;
 
 int unique(int arr[], int n);
