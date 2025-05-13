@@ -109,7 +109,7 @@ void display()
 	cout << "Street: " << a.street << endl;
 	cout << "District: " << a.district << endl;
 	cout << "State: " << a.state << endl;
-	return 0;
+	
 }
 
 int menu(int n) {
