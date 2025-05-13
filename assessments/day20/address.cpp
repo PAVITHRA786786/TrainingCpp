@@ -26,7 +26,7 @@ int del(char);
 int search(char);
 int update(char);
 void display(struct address a[],int);
-int menu(int);
+void menu();
 
 int main()
 {
@@ -34,7 +34,8 @@ int main()
 	struct address a[CAP];
 	int n = 2;
 	add(a, n);
-	display(a,n);
+	display(a, n);
+	//del(a, n);
 	return 0;
 
 }
@@ -74,23 +75,83 @@ void display(struct address a[], int n)
 }
 
 /*
-int del(char name)
+int del(struct address a[], int n)
 {
+	char name[CAP];
+	int i, j = 0;
 	cout << "Enter the name of the address you want to delete" << endl;
+	for (i = 0;i < n;i++) {
+		cin >> name[i];
+	}
+	for (i = 0;i < n;i++) {
+		if (strcmp(a[0].name, name) == 0)
+		{
+			true;
+		}
+		else{
+			false;
+
+		}
+	}
+       return 0;		
+}
+/*
+void menu()
+{
+	int num;
+	cout << "Enter your choice :" << endl;
+	cin >> num;
+	
+	switch (num) {
+	case 1:
+		cout << "Adding Address " << endl;
+		break;
+	case 2:
+		cout << "display ";
+		cout << endl;
+
+		break;
+	case 3:
+		cout << update;
+		break;
+	case 4:
+		cout << search;
+		break;
+	case 5:
+		cout << del;
+		break;
+	default:
+		cout << "Enter valid one" << endl;
+		break;
+	}
+	
+}
+
+
+/*
+int del(struct address a[],char name)
+{
+	cout<< "Enter the name of the address you want to delete" << endl;
 	cin >> name;
 	struct address a;
-	
-	/*
-	struct book b;
-	if (strcmp(b.name, a.name) == 0)
+	int i;
+	for (i = 0;i < 2;i++)
 	{
-	true
-	else false
+		if (a[i] != a[i + 1])
+		{
+			  cin>>a[i];
+		}
+		else
+			i++;
+	}
+	
+}
+	
 	
 	cout << "Address deleted successfully" << endl;
 	return 0;
 }
-
+/*
 int search(char name)
 {
 		cout << "Enter the name of the address you want to search" << endl;
