@@ -82,6 +82,7 @@ int search(char name)
 		cout << "Enter the name of the address you want to search" << endl;
 	cin >> name;
 	struct address a;
+
 	
 	cout << "Address found successfully" << endl;
 	cout << "Name: " << a.name << endl;
@@ -93,4 +94,27 @@ int search(char name)
 }
 
 
-
+int menu(int n) {
+	cout << "Enter your choice :" << endl;
+	cin >> n;
+	switch (n) {
+	case 1:
+		cout << add;
+		break;
+	case 2:
+		cout << del;
+		break;
+	case 3:
+		cout << update;
+		break;
+	case 4:
+		cout << search;
+		break;
+	case 5:
+		cout << list;
+		break;
+	default:
+		cout << "Enter valid one" << endl;
+		break;
+	}
+}
