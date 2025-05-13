@@ -34,6 +34,7 @@ int add(int);
 int del(char);
 int search(char);
 int update(char);
+int menu(int);
 void display();
 
 int main()
