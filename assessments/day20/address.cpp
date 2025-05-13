@@ -34,8 +34,16 @@ int add(int);
 int del(char);
 int search(char);
 int update(char);
-int display(int);
+void display();
 
+int main()
+{
+	add('a');
+	return 0;
+	menu('n');
+	return 0;
+
+}
 int add(int n)
 {
 	
@@ -71,7 +79,7 @@ int del(char name)
 	cout << "Enter the name of the address you want to delete" << endl;
 	cin >> name;
 	struct address a;
-
+	
 	//if(strcmp()
 	cout << "Address deleted successfully" << endl;
 	return 0;
@@ -83,7 +91,6 @@ int search(char name)
 	cin >> name;
 	struct address a;
 
-	
 	cout << "Address found successfully" << endl;
 	cout << "Name: " << a.name << endl;
 	cout << "House No: " << a.houseNo << endl;
@@ -92,7 +99,18 @@ int search(char name)
 	cout << "State: " << a.state << endl;
 	return 0;
 }
-
+void display()
+{
+	cout << "Enter the name of the address you want to display" << endl;
+	struct address a;
+	cout << "Address found successfully" << endl;
+	cout << "Name: " << a.name << endl;
+	cout << "House No: " << a.houseNo << endl;
+	cout << "Street: " << a.street << endl;
+	cout << "District: " << a.district << endl;
+	cout << "State: " << a.state << endl;
+	return 0;
+}
 
 int menu(int n) {
 	cout << "Enter your choice :" << endl;
@@ -111,7 +129,7 @@ int menu(int n) {
 		cout << search;
 		break;
 	case 5:
-		cout << list;
+		cout << display;
 		break;
 	default:
 		cout << "Enter valid one" << endl;
