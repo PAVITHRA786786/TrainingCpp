@@ -10,9 +10,10 @@ public:
 	char* getAccHolder();
 	void setBal(float);
 	float getBal();
-	void deposite(float);
-	void withdraw(float);
 	void display();
+public:
+        void deposite(float);
+	void withdraw(float);
 
 
 };
