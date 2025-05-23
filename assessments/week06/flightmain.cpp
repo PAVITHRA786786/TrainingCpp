@@ -35,7 +35,6 @@ int main()
 	char flightNumber[20]="AI203";
     int cap = 100;
 	Flight f1(flightNumber, cap);
-	
 	f1.bookSeats(30);
 	f1.showAvailability();
 
