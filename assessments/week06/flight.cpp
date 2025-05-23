@@ -7,12 +7,13 @@ using namespace std;
 Flight::Flight(char *f, int c){ 
 	strcpy(flightNumber, f);
 	totalSeats = c;
-	bookedSeats = 100;
+	bookedSeats = 0;
 	
 
 }
 
 int Flight::bookSeats(int seats) {
+	totalSeats = 100;
 	if (seats > totalSeats) {
 		cout << "Booking Failed: Not enough seats." << endl;
 		return 0;
