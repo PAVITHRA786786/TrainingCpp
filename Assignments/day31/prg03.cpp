@@ -37,7 +37,7 @@ public:
 	void display() const {
 		cout << "Vehicle Type: " << type << endl;
 		cout << "Vehicle ID: " << vehicleId << endl;
-		cout << "Rate per Km: ₹" << ratePerKm << endl;
+		cout << "Rate: " << ratePerKm << endl;
 	}
 	float getRate() const {
 		return ratePerKm;
