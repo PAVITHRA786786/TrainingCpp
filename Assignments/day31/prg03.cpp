@@ -55,13 +55,6 @@ public:
 		return distance * getRate();
 	}
 
-	/*float calculateFareWithDiscount() const {
-		if (days > 2) {
-			return calculateFare() * 0.9; 
-		}
-		return calculateFare();
-	}*/
-
 	float calculateFare(int n) const {
 		while (n == 1) {
 			if (days > 2) {
