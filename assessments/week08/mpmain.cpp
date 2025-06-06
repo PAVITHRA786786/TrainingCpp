@@ -10,7 +10,7 @@ int main()
 	try {
 		Logger logger("instructions.txt");
 		
-		//Microprocessor <string> MP();
+		Microprocessor <string> MP();
 		int AX = 50, BX = 30, CX = 0, DX = 0;
 		static int programCounter = 00;
 		programCounter++;
